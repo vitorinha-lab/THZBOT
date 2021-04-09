@@ -59,7 +59,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:theuzinmaker\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=+151366923806:+1 5136692380\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=+151366923806:+1 (513) 669-2380\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"15136692380@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["15136692380@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["15136692380@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net","994406551396@s.whatsapp.net'] 
+			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net","994406551396@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
