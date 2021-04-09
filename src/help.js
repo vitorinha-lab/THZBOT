@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `
 ══════════════════════
-      *THZ BOT*
+      THZ BOT
 ══════════════════════
 
       𝙱𝙾𝚃 𝙼𝙴𝙽𝚄
@@ -15,17 +15,17 @@ const help = (prefix) => {
 ║
 ╠══🥶〘 MENU 〙🥶══
 ║
-║🍃 *${prefix}figu*
-║🍃 *${prefix}toimg*
-║🍃 *${prefix}darkjokes (memes aleatórios)*
-║🍃 *${prefix}memeindo*
-║🍃 *${prefix}tts*
-║🍃 *${prefix}lolih [on]*
-║🍃 *${prefix}nsfwloli [off]*
-║🍃 *${prefix}url2img*
-║🍃 *${prefix}leens [na legenda]*
-║🍃 *${prefix}wait [na legenda]*
-║🍃 *${prefix}setprefix*
+║🍃 ${prefix}figu
+║🍃 ${prefix}toimg
+║🍃 ${prefix}darkjokes (memes aleatórios)
+║🍃 ${prefix}memeindo
+║🍃 ${prefix}tts
+║🍃 ${prefix}lolih [on]
+║🍃 ${prefix}nsfwloli [off]
+║🍃 ${prefix}url2img
+║🍃 ${prefix}leens [na legenda]
+║🍃 ${prefix}wait [na legenda]
+║🍃 ${prefix}setprefix
 ║
 ╠══🥶〘 OUTROS 〙🥶══
 ║
@@ -159,48 +159,48 @@ const help = (prefix) => {
 ║
 ╠══🥶〘 MAIS ALGUNS 〙🥶══
 ║
-║🍃 *${prefix}neko*
-║🍃 *${prefix}ttp [texto]*
-║🍃 *${prefix}testime*
-║🍃 *${prefix}tomp3*
-║🍃 *${prefix}modoanime [on/off]*
-║🍃 *${prefix}modonsfw [on/off]*
-║🍃 *${prefix}happymod [jogo/app]*
-║🍃 *${prefix}rize*
-║🍃 *${prefix}ytsearch*
-║🍃 *${prefix}moddroid [jogo/app]*
-║🍃 *${prefix}xvideos [titulo]**
-║🍃 *${prefix}nomegp*
-║🍃 *${prefix}darkjokes (memes aleatórios)*
-║🍃 *${prefix}animecry*
-║🍃 *${prefix}gay1*
-║🍃 *${prefix}next*
-║🍃 *${prefix}alerta*
-║🍃 *${prefix}belle [img aleatórias]*
-║🍃 *${prefix}pronomeneu [texto]*
-║🍃 *${prefix}hobby*
-║🍃 *${prefix}kiss
-║🍃 *${prefix}analise
+║🍃 ${prefix}neko
+║🍃 ${prefix}ttp [texto]
+║🍃 ${prefix}testime
+║🍃 ${prefix}tomp3
+║🍃 ${prefix}modoanime [on/off]
+║🍃 ${prefix}modonsfw [on/off]
+║🍃 ${prefix}happymod [jogo/app]
+║🍃 ${prefix}rize
+║🍃 ${prefix}ytsearch
+║🍃 ${prefix}moddroid [jogo/app]
+║🍃 ${prefix}xvideos [titulo]
+║🍃 ${prefix}nomegp
+║🍃 ${prefix}darkjokes (memes aleatórios)
+║🍃 ${prefix}animecry
+║🍃 ${prefix}gay1
+║🍃 ${prefix}next
+║🍃 ${prefix}alerta
+║🍃 ${prefix}belle [img aleatórias]
+║🍃 ${prefix}pronomeneu [texto]
+║🍃 ${prefix}hobby
+║🍃 ${prefix}kiss
+║🍃 ${prefix}analise
 ║
 ╠══🥶〘 COMANDOS DE VOZ 〙🥶══
 ║
-║🍃 *${prefix}ola*
-║🍃 *${prefix}bv*
-║🍃 *${prefix}tchau*
-║🍃 *${prefix}bem*
-║🍃 *${prefix}a*
-║🍃 *${prefix}fdp*
-║🍃 *${prefix}onich*
-║🍃 *${prefix}beat1*
-║🍃 *${prefix}glub*
-║
+║🍃 ${prefix}ola
+║🍃 ${prefix}bv
+║🍃 ${prefix}tchau
+║🍃 ${prefix}bem
+║🍃 ${prefix}a
+║🍃 ${prefix}fdp
+║🍃 ${prefix}onich
+║🍃 ${prefix}beat1
+║🍃 ${prefix}glub
+║🍃 ${prefix}gemidao
 ╠══🥶〘 OUTROS /2 〙🥶══
 ║
-║🍃 *${prefix}antilink [1/0]*
-║🍃 *${prefix}brainly [pergunta]*
-║🍃 *${prefix}antiracismo [on/off]*
-║🍃 *${prefix}setnomebot*
-║🍃 *${prefix}meme*
+║🍃 ${prefix}antilink [1/0]
+║🍃 ${prefix}brainly [pergunta]
+║🍃 ${prefix}antiracismo [on/off]
+║🍃 ${prefix}setnomebot
+║🍃 ${prefix}meme
 ║
 ╠══🥶〘 INTERATIVOS 〙🥶══
 ║
@@ -213,15 +213,14 @@ const help = (prefix) => {
 ║🍃 bv
 ║🍃 canta ai bot
 ║🍃 grita
-║🍃 gemidao
 ║🍃 musica
 ║
 ╠══🥶〘 𝗗𝗢𝗡𝗢 〙🥶══
 ║
-║ *NOME: THEUZINMAKER*
-║ *INSTA: theuzinmaker_yt*
-║ *WPP: wa.me/+15136692380*
-║ *YOUTUBE: abre.ai/theuzinmaker*
+║ NOME: THEUZINMAKER
+║ INSTA: theuzinmaker_yt
+║ WPP: wa.me/+15136692380
+║ YOUTUBE: abre.ai/theuzinmaker
 ║
 ║
 ╚═〘 THZBOT 〙`

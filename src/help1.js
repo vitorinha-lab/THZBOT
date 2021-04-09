@@ -26,7 +26,8 @@ const help1 = (prefix) => {
 ┣⊱❥ marvelogo <texto | texto>
 ┣⊱❥ snow <texto | texto>
 ┣⊱❥ firetext
-
+┣NOTA:
+ ALGUNS COMANDOS NÃO ESTÃO FUNCIONANDO 
 ════════════════════
 THZBOT 😊
 ════════════════════`
