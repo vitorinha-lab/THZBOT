@@ -4,13 +4,13 @@ const help = (prefix) => {
       *THZ BOT*
 ══════════════════════
 
-   ᏴϴͲ•ᎷᎬΝႮ
-┌─────────❷.0────────
+      𝙱𝙾𝚃 𝙼𝙴𝙽𝚄
+┌─────────𝟐.𝟎────────
 ║〘 INFORMAÇÕES 〙
 ║
-╠☘️ *THZ BOT* 
+╠☘️  THZ BOT
 ╠☘️ 𝐃𝐎𝐍𝐎:  ⃬⃗𝙏𝙃𝙀𝙐𝙕𝙄𝙉𝙈𝘼𝙆𝙀𝙍
-╠☘️ *wa.me/+15136692380*
+╠☘️ wa.me/+15136692380
 ╠☘️ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ╠══🥶〘 MENU 〙🥶══
@@ -216,7 +216,7 @@ const help = (prefix) => {
 ║🍃 gemidao
 ║🍃 musica
 ║
-╠══🥶〘 THEUZIN NO CONTROLE 〙🥶══
+╠══🥶〘 𝗗𝗢𝗡𝗢 〙🥶══
 ║
 ║ *NOME: THEUZINMAKER*
 ║ *INSTA: theuzinmaker_yt*
