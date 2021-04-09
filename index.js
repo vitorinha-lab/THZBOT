@@ -1881,7 +1881,10 @@ case 'glub':
 tujuh = fs.readFileSync('./assets/glub.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-		
+case 'gemidao':
+tujuh = fs.readFileSync('./assets/gemidao.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break		
 				case 'hinata':
 
 					reply(mess.wait)
