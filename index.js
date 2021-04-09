@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"15136692380@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["15136692380@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["15136692380@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net"] 
+			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net","994406551396@s.whatsapp.net'] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -1264,7 +1264,7 @@ if (text.includes("placa"))
 					pineq = await getBuffer(trest)
 					client.sendMessage(from, pineq, image, { caption: '*Pinterest*\n\n*Resultado Pesquisa : '+pinte+'*', quoted: mek })
 					break
-//@darkYT					
+//@theuzinmaker_yt					
 				case 'pokemon':
                     client.updatePresence(from, Presence.composing) 
 					data = await fetchJson(`https://api.fdci.se/rep.php?gambar=pokemon`, {method: 'get'})
