@@ -207,7 +207,7 @@ async function starts() {
 		start('2', 'Quase la...')
 	})
 	client.on('open', () => {
-		success('2', 'Conectado leke')
+		success('2', 'Conectado porra')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./BarBar.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
