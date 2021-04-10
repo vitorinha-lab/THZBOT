@@ -3358,7 +3358,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT THZ ✨* 」\n*│+ wa.me/5547992091566*╰──────*「 *THZBOT* 」*────*\n\n*_SE QUER SER ADMIN DO BOT THZ_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT THZ ✨* 」\n*│+ wa.me/+15136692380*╰──────*「 *THZBOT* 」*────*\n\n*_SE QUER SER ADMIN DO BOT THZ_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
@@ -3367,7 +3367,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/554792091566/*╰──────*「 * THZBOT* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO THZ BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/15136692380/*╰──────*「 * THZBOT* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO THZ BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
