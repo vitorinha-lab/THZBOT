@@ -21,4 +21,4 @@
 > node index.js
 
 
-#PFVR NÃO EDITAR O BOT, OBG
+canal do theuzinmaker: abre.ai/theuzinmaker
