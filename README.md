@@ -1,7 +1,7 @@
 # THZBOT
 
 
-
+</details>  ### COMANDOS LOGO ABAIXO, PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
 
 >COMMANDS:
 
@@ -23,3 +23,8 @@
 
 > node index.js
 
+
+
+
+
+</details>  ### AGRADECIMENTOS: DARK & CAUSS
