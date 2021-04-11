@@ -23,8 +23,3 @@
 
 > node index.js
 
-
-
-
-
-> canal do theuzinmaker: abre.ai/theuzinmaker
