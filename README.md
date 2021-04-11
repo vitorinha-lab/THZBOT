@@ -26,5 +26,5 @@
 
 
 
-</details>  ### AGRADECIMENTOS: DARK & CAUSS
+</details>  ### AGRADECIMENTOS: DARK & CAUSS,
 PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
