@@ -89,73 +89,73 @@ const help = (prefix) => {
 ║
 ╠══🥶〘 INTELIGÊNCIA 〙🥶══
 ║
-║🍃 *${prefix}simih 1 (para ativar)*
-║🍃 *${prefix}simih 0 (para desativar)*
-║ *${prefix}simi (sua mensagem)*
+║🍃  ${prefix}simih 1 (para ativar)
+║🍃  ${prefix}simih 0 (para desativar)
+║     ${prefix}simi (sua mensagem)
 ║
 ╠══🥶〘 EM PRODUÇÃO 〙🥶══
 ║
-║🍃 *${prefix}gado*
-║🍃 *${prefix}dbz*
-║🍃 *${prefix}gtts loli*
-║🍃 *${prefix}hidegp*
-║🍃 *${prefix}grupos
-║🍃 *${prefix}antinazismo
-║🍃 *${prefix}it 1/0
+║🍃 ${prefix}gado
+║🍃 ${prefix}dbz
+║🍃 ${prefix}gtts loli
+║🍃 ${prefix}hidegp
+║🍃 ${prefix}grupos
+║🍃 ${prefix}antinazismo
+║🍃 ${prefix}it 1/0
 ║
 ╠══🥶〘 SÓ PREMIUM 〙🥶══
 ║
-║🍃 *${prefix}dado*
-║🍃 *${prefix}cekvip*
-║🍃 *${prefix}premiumlist*
-║🍃 *${prefix}delete*
-║🍃 *${prefix}modapk*
-║🍃 *${prefix}indo10*
-║🍃 *${prefix}daftarvip [para virar Premium]*
-║🍃 *${prefix}qrcode*
-║🍃 *${prefix}chentai*
-║🍃 *${prefix}gcpf*
-║🍃 *${prefix}gbin*
-║🍃 *${prefix}pack*
-║🍃 *${prefix}destrava*
-║🍃 *${prefix}gpessoa*
+║🍃 ${prefix}dado
+║🍃 ${prefix}cekvip
+║🍃 ${prefix}premiumlist
+║🍃 ${prefix}delete
+║🍃 ${prefix}modapk
+║🍃 ${prefix}indo10
+║🍃 ${prefix}daftarvip [para virar Premium]
+║🍃 ${prefix}qrcode
+║🍃 ${prefix}chentai
+║🍃 ${prefix}gcpf
+║🍃 ${prefix}gbin
+║🍃 ${prefix}pack
+║🍃 ${prefix}destrava
+║🍃 ${prefix}gpessoa
 ║
 ╠══🥶〘 GRUPO 〙🥶══
 ║
-║🍃 *${prefix}banir*
-║🍃 *${prefix}leveling [on/off]*
-║🍃 *${prefix}level*
-║🍃 *${prefix}add*
-║🍃 *${prefix}promover*
-║🍃 *${prefix}setfoto [na legenda]*
-║🍃 *${prefix}setname [texto]*
-║🍃 *${prefix}rebaixar*
-║🍃 *${prefix}admins*
-║🍃 *${prefix}marcar*
-║🍃 *${prefix}marcar2*
-║🍃 *${prefix}marcar3*
-║🍃 *${prefix}bemvindo [1/0]*
-║🍃 *${prefix}grupoinfo*
-║🍃 *${prefix}bomdia*
-║🍃 *${prefix}boatarde*
-║🍃 *${prefix}boanoite*
-║🍃 *${prefix}setdesc*
-║🍃 *${prefix}bug [sua mensagem]*
+║🍃 ${prefix}banir
+║🍃 ${prefix}leveling [on/off]
+║🍃 ${prefix}level
+║🍃 ${prefix}add
+║🍃 ${prefix}promover
+║🍃 ${prefix}setfoto [na legenda]
+║🍃 ${prefix}setname [texto]
+║🍃 ${prefix}rebaixar
+║🍃 ${prefix}admins
+║🍃 ${prefix}marcar
+║🍃 ${prefix}marcar2
+║🍃 ${prefix}marcar3
+║🍃 ${prefix}bemvindo [1/0]
+║🍃 ${prefix}grupoinfo
+║🍃 ${prefix}bomdia
+║🍃 ${prefix}boatarde
+║🍃 ${prefix}boanoite
+║🍃 ${prefix}setdesc
+║🍃 ${prefix}bug [sua mensagem]
 ║
 ╠══🥶〘 ESPECIFICO DO BOT 〙🥶══
 ║
-║🍃 *${prefix}bug [sua mensagem]*
-║🍃 *${prefix}clonar [@]*
-║🍃 *${prefix}dono*
-║🍃 *${prefix}ping [ver velocidade do bot]*
-║🍃 *${prefix}termux*
-║🍃 *${prefix}gay [@]*
-║🍃 *${prefix}wame*
-║🍃 *${prefix}map (nome)*
-║🍃 *${prefix}setppbot (marque uma img)*
-║🍃 *${prefix}pinterest (nome)*
-║🍃 *${prefix}desligar (so para o dono)*
-║🍃 *${prefix}timer*
+║🍃 ${prefix}bug [sua mensagem]
+║🍃 ${prefix}clonar [@]
+║🍃 ${prefix}dono
+║🍃 ${prefix}ping [ver velocidade do bot]
+║🍃 ${prefix}termux
+║🍃 ${prefix}gay [@]
+║🍃 ${prefix}wame
+║🍃 ${prefix}map (nome)
+║🍃 ${prefix}setppbot (marque uma img)
+║🍃 ${prefix}pinterest (nome)
+║🍃 ${prefix}desligar (so para o dono)
+║🍃 ${prefix}timer
 ║
 ╠══🥶〘 MAIS ALGUNS 〙🥶══
 ║
@@ -222,7 +222,7 @@ const help = (prefix) => {
 ║ WPP: wa.me/+15136692380
 ║ YOUTUBE: abre.ai/theuzinmaker
 ║
-║
+║🥶MEU BOT TEM DRIP VOCÊ NÃO🥶
 ╚═〘 THZBOT 〙`
 }
 
