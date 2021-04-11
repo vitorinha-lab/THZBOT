@@ -1,5 +1,8 @@
 # THZBOT
 
+
+
+
 >COMANDOS:
 
 > termux-setup-storage
@@ -21,4 +24,7 @@
 > node index.js
 
 
-canal do theuzinmaker: abre.ai/theuzinmaker
+
+
+
+> canal do theuzinmaker: abre.ai/theuzinmaker
