@@ -3,7 +3,7 @@
 
 
 
->COMANDOS:
+>COMMANDS:
 
 > termux-setup-storage
 
