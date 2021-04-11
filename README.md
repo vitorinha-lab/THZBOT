@@ -1,7 +1,10 @@
 # THZBOT
 
 
-</details>  ### COMANDOS LOGO ABAIXO, PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
+</details>  COMANDOS LOGO ABAIXO, PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
+
+
+
 
 >COMMANDS:
 
