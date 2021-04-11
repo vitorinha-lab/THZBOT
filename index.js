@@ -744,10 +744,8 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
-                    me=client.user 
-                    uptime=process.uptime 
-                       client.sendMessage(from, help(pushname,prefix), text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "THEUZINMAKER DOMINA VADIA", 'jpegThumbnail': fs.readFileSync('./assets/botlogo.webp')}}}})
-                    break
+					client.sendMessage(from, help(prefix), text)
+					break
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
