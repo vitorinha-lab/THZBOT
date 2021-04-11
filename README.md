@@ -1,10 +1,6 @@
 # THZBOT
 
 
-</details>  COMANDOS LOGO ABAIXO, PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
-
-
-
 
 >COMMANDS:
 
@@ -31,3 +27,4 @@
 
 
 </details>  ### AGRADECIMENTOS: DARK & CAUSS
+PASSE NO MEU CANAL HTTPS://abre.ai/theuzinmaker
