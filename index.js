@@ -885,10 +885,9 @@ if (text.includes("placa"))
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.title}.mp4`, quoted: mek})
 					break
-		case 'iri':
-			client.sendPtt(from, './lindy/iri.mp3', {quoted: mek, ptt:true})
-			break
-				case 'ytmp3':
+                case 'iri':
+		          	client.sendPtt(from, './lindy/iri.mp3', {quoted: mek, ptt:true})
+		        	break
 			    	if (!isPremium) return reply(mess.only.premium)
                    reply(mess.wait)
 					if (args.length < 1) return reply('Cadê o url, hum?')
@@ -2058,10 +2057,10 @@ break
 					qute9 = await getBuffer(`https://i.ibb.co/z6w14Gq/32d64d819e21.png`)
 					client.sendMessage(from, qute9, image, { quoted: mek, caption: 'Aqui está o Bro Baixe o seu próprio link\n\nhttps://www.mediafire.com/file/snwja297dv4zvtl/VID-20210107-WA0036.mp4/file' })
 					break
-case 'iri':
-const irimp3 = fs.readFileSync('./assets/iri.mp3');
-client.sendMessage(from, irimp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
+                case 'iri':
+                    const irimp3 = fs.readFileSync('./assets/iri.mp3');
+                    client.sendMessage(from, irimp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                    break
 				case 'bucin':
 					anu = await fetchJson(`https://arugaz.herokuapp.com/api/howbucins`, {method: 'get'})
 					reply('Não fique entediado:\n\n'+anu.desc)
@@ -2221,7 +2220,7 @@ break
 			        await limitAdd(sender) 
 			        break 
 				case 'slide':
-					if (args.length < 1) return reply('*Textnya mana gan?*')
+					if (args.length < 1) return reply('*Onde está o texto??*')
 					teks = `${body.slice(7)}`
 					atytyd = await getBuffer(`https://api.vhtear.com/slidingtext?text=${teks}&apikey=${VthearApi}`, {method: 'get'})
 					reply(mess.wait)
@@ -2743,8 +2742,8 @@ break
 					}
 					break
                 case 'irii':
-			client.sendPtt(from, './lindy/iri2.mp3', id)
-			break
+			            client.sendPtt(from, './lindy/iri2.mp3', id)
+			        break
                  case 'play':
                 reply(mess.wait)
                 play = body.slice(5)
@@ -3038,7 +3037,7 @@ break
                       break
 			    case 'fakereplay':
                    client.reply(from, 'ange mas', 'mending lari', "0816-5466368")
-                   break
+                      break
 				case 'infogc':
 				client.updatePresence(from, Presence.composing)
 				if (!isGroup) return reply(mess.only.group)
@@ -3341,7 +3340,7 @@ break
 					case 'dellvip':
 					if (!isOwner) return reply(mess.only.ownerB)
 					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite * # Daftarvip * para adquirir o acesso Premium!' ,text, { quoted: mek })
-					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag target yang ingin di tendang!')
+					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('A marca-alvo que você deseja chutar!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
@@ -3372,8 +3371,8 @@ break
 					case 'cekmod': 
  
 					if (!isOwner) return reply(mess.only.ownerB)
-                 if (!ismod) return reply('kamu Belum Terdaftar sebagai User Modbot')
-                reply('kamu udah ke daftar sebagai user Modbot')
+                 if (!ismod) return reply('Você ainda não está registrado como um usuário Modbot')
+                reply('Você se registrou como um usuário Modbot')
                 break
                     case 'modbotlist':
 					teks = 'Esta é a lista de usuários premium :\n'
@@ -3578,7 +3577,7 @@ break
                let dbw = body.slice(9);
                bad.splice(dbw);
                fs.writeFileSync('./database/json/bad.json', JSON.stringify(bad));
-               reply('Success Menghapus BAD WORD!');
+               reply('Sucesso exclui BAD WORD!');
                break
            case 'shitlist':
                let lbw = `Lista de palavras proibidas\nTotal : ${bad.length}\n`;
@@ -3596,7 +3595,7 @@ break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/a/ZgCs3L1`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* 𝙏𝙃𝙀𝙐𝙕𝙄𝙉𝙈𝘼𝙆𝙀𝙍 𝛩𝑭 𝘽𝙄𝙏𝘾𝙃✞⁩\n*YOUTUBE:* abre.ai/theuzinmaker\n*WPP:* wa.me/+15136692380\n*INSTA:* @theuzinmaker_yt\n\n\nEspero que tenham gostado do bot 💗'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* 𝙏𝙃𝙀𝙐𝙕𝙄𝙉𝙈𝘼𝙆𝙀𝙍\n*YOUTUBE:* abre.ai/theuzinmaker\n*WPP:* wa.me/+15136692380\n*INSTA:* @theuzinmaker_yt\n\nEspero que tenham gostado do bot 💗'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
