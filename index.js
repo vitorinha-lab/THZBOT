@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"15136692380@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["15136692380@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["15136692380@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net","994406551396@s.whatsapp.net","559288095981@s.whatsapp.net","5512992208103@s.whatsapp.net","351912202580@s.whatsapp.net"] 
+			const premium = ["15136692380@s.whatsapp.net","5519971528262@s.whatsapp.net","994406551396@s.whatsapp.net","559288095981@s.whatsapp.net","5512992208103@s.whatsapp.net","351912202580@s.whatsapp.net","5522992154294@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -2201,7 +2201,7 @@ break
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('Boo :𝘃')
 					if (args[0] === 'on') {
-                    if (isLevelingOn) return reply('*O comando de level já estava ativo*')
+                    if (isLevelingOn) return reply('O comando de level já estava ativo 😊')
                     _leveling.push(groupId)
                     fs.writeFileSync('./database/group/leveling.json', JSON.stringify(_leveling))
                      reply(mess.levelon)
