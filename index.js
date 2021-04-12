@@ -1893,8 +1893,8 @@ case 'm4':
 tujuh = fs.readFileSync('./assets/m4.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break		
-case 'Manha':
-tujuh = fs.readFileSync('./assets/Manha.mp3');
+case 'manha':
+tujuh = fs.readFileSync('./assets/manha.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
 case '777-666':
@@ -1910,7 +1910,7 @@ tujuh = fs.readFileSync('./assets/hylander.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
 case 'vida louca':
-tujuh = fs.readFileSync('./assets/vida louca.mp3');
+tujuh = fs.readFileSync('./assets/vidalouca.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
 
