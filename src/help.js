@@ -156,6 +156,14 @@ const help = (prefix) => {
 ║🍃 ${prefix}pinterest (nome)
 ║🍃 ${prefix}desligar (so para o dono)
 ║🍃 ${prefix}timer
+╠══🥶〘 MUSICAS 〙🥶══
+║
+║🍃${prefix}m4 [teto ft. matue]
+║🍃${prefix}hylander [Abbot ft.Somynem.grin]
+║🍃${prefix}nav [Jovem Dex]
+║🍃${prefix}Manha [teto]
+║🍃${prefix}777-666 [Matue]
+║🍃${prefix}vida louca [mc poze]
 ║
 ╠══🥶〘 MAIS ALGUNS 〙🥶══
 ║
@@ -213,7 +221,9 @@ const help = (prefix) => {
 ║🍃 bv
 ║🍃 canta ai bot
 ║🍃 grita
-║🍃 musica
+║🍃 corno
+║🍃 tmnc
+║🍃 eai bot
 ║
 ╠══🥶〘 𝗗𝗢𝗡𝗢 〙🥶══
 ║
@@ -222,7 +232,7 @@ const help = (prefix) => {
 ║ WPP: wa.me/+15136692380
 ║ YOUTUBE: abre.ai/theuzinmaker
 ║
-║🥶MEU BOT TEM DRIP VOCÊ NÃO🥶
+║
 ╚═〘 THZBOT 〙`
 }
 
