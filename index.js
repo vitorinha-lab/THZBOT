@@ -52,7 +52,7 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'THZ bot'; 
+const BotName = 'THZ BOT'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
@@ -681,10 +681,15 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("olha eu aqui carai")
 	}
-	
-		if (messagesC.includes("bot")){
+    
+	    if (messagesC.includes("fdp")){
 			client.updatePresence(from, Presence.composing)
-			reply("oi")
+			reply("teu pai")
+	}
+	
+    	if (messagesC.includes("eai bot")){
+			client.updatePresence(from, Presence.composing)
+			reply("eai, tudo bem?")
 	}
 	
 			if (messagesC.includes("bah")){
@@ -1883,7 +1888,32 @@ break
 case 'gemidao':
 tujuh = fs.readFileSync('./assets/gemidao.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'm4':
+tujuh = fs.readFileSync('./assets/m4.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break		
+case 'Manha':
+tujuh = fs.readFileSync('./assets/Manha.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case '777-666':
+tujuh = fs.readFileSync('./assets/777-666.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'nav':
+tujuh = fs.readFileSync('./assets/nav.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'hylander':
+tujuh = fs.readFileSync('./assets/hylander.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'vida louca':
+tujuh = fs.readFileSync('./assets/vida louca.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+
 				case 'hinata':
 
 					reply(mess.wait)
@@ -3623,7 +3653,7 @@ break
 					loli.getNSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Não faça ingredientes para o tio comum'})
 					})
 					break
 				case 'pronomeneu':
