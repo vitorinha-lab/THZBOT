@@ -14,7 +14,7 @@ _wa.me/+15136692380 ou digite *${prefix}owner*_
 
 *NOTA*
 
-*CANAL DO THEUZINMAKER 🍃 :*
+*CANAL DO THEUZINMAKER 🌀 :*
 abre.ai/theuzinmaker`
 }
 exports.daftarvip = daftarvip

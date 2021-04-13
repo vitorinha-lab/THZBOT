@@ -1,6 +1,6 @@
 const menu2 = (prefix) => { 
 	return `                 
-╠══✪〘 MENU 〙✪══
+╠══✪〘 🥶MENU🥶 〙✪══
 ║
 ╠➥ *${prefix}figu*
 ╠➥ *${prefix}toimg*
@@ -45,6 +45,6 @@ const menu2 = (prefix) => {
 ╠➸ *${prefix}simih 0 (para desativar)*
 ╠➥ *${prefix}simi (sua mensagem)*
 ║
-╠══✪〘 *THZ BOT* 〙✪══`
+╠══✪〘 THZ BOT 〙✪══`
 }
 exports.menu2 = menu2

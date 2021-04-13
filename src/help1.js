@@ -1,7 +1,7 @@
 const help1 = (prefix) => {
 
 	return `
-┣━━━━°💗 ❬ CRIAR ❭ 💗°━━━━┓
+┣━━━━°🥶 ❬ CRIAR ❭ 🥶°━━━━┓
 ┃
 ┣⊱❥ xd
 ┣⊱❥ pinterest
@@ -27,9 +27,9 @@ const help1 = (prefix) => {
 ┣⊱❥ snow <texto | texto>
 ┣⊱❥ firetext
 ┣NOTA:
- ALGUNS COMANDOS NÃO ESTÃO FUNCIONANDO 
+ ALGUNS COMANDOS NÃO ESTÃO FUNCIONANDO🌀
 ════════════════════
-THZBOT 😊
+THZBOT ❄️
 ════════════════════`
 }
 exports.help1 = help1
