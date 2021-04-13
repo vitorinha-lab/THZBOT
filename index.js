@@ -1905,7 +1905,7 @@ case 'hylander':
 tujuh = fs.readFileSync('./assets/hylander.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'vida louca':
+case 'vidalouca':
 tujuh = fs.readFileSync('./assets/vidalouca.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
