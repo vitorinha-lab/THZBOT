@@ -59,12 +59,12 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:theuzinmaker\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=+151366923806:+1 (513) 669-2380\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=+151366923806:+1(513)669-2380\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.','!','#'
 blocked = []
 limitawal = '999999999'
-cr = '*theuzinmaker*'
+cr = 'theuzinmaker'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -698,9 +698,9 @@ if (text.includes("placa"))
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
-			if (messagesC.includes("Dbz")){
+			if (messagesC.includes("yamete")){
 			client.updatePresence(from, Presence.composing)
-			tujuh = fs.readFileSync('./assets/Dbz.mp3');
+			tujuh = fs.readFileSync('./assets/yamete.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	        if (messagesC.includes("sexo")){
