@@ -657,9 +657,9 @@ if (text.includes("placa"))
 		}, 0)
 	}
 	
-	if (messagesC.includes("fdp")){
+	if (messagesC.includes("ola,bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("teu pai")
+			reply("eai, tudo bem?")
 	}
 	
 		if (messagesC.includes("corno")){
