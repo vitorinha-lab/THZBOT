@@ -300,11 +300,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511966491483@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5511966491483@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5511966491483@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5511966491483@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5511966491483@s.whatsapp.net","5512982345788@s.whatsapp.net","5511977141341@s.whatsapp.net","@s.whatsapp.net","5521973747709@s.whatsapp.net","5585986839965@s.whatsapp.net","5511988432333@s.whatsapp.net"] 
+			const ownerNumber = ["5511977141341@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5511977141341@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5511977141341@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5511977141341@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5511966491483@s.whatsapp.net","5511945390458@s.whatsapp.net","5511977141341@s.whatsapp.net","@s.whatsapp.net","5521973747709@s.whatsapp.net","5585986839965@s.whatsapp.net","5511988432333@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -403,7 +403,7 @@ if (text.includes("geradorcpf")){
 const aris = text.replace(/!geradorcpf/, "")
 axios.get(`http://geradorapp.com/api/v1/cpf/generate?token=40849779ec68f8351995def08ff1e2fa`).then((res) => {
 	conn.sendMessage(id, '[❗] ESPERE ESTA PROCESSANDO', MessageType.text)
-         let cpf = `*🔍CPF GERADOS🔍* \n\n ➸ *CPF:* ${res.data.data.number}  \n\n *📌BY:THZ BOT*`;
+         let cpf = `*🔍CPF GERADOS🔍* \n\n ➸ *CPF:* ${res.data.data.number}  \n\n *📌BY:Vick BOT*`;
     conn.sendMessage(id, cpf ,MessageType.text);
 })
 }	
